@@ -1,0 +1,1 @@
+document.querySelector('.botao-pause').style.display = 'none'

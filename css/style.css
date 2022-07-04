@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +10,17 @@ body {
     height: 100vh;
     background-color: rgb(77, 75, 75);
     color: rgb(235, 225, 225)
+}
+
+.container {
+    background-color: rgba(27, 27, 27, 0.89);
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -66,17 +79,19 @@ img {
     width: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    
 }
 
 .botao-play, .botao-pause{
     font-size: 50px;
+    cursor: pointer;
 }
 
 .setas {
     font-size: 40px ;
+    cursor: pointer;
 }
 
 
-.botao-pause {
-    display: none;
-}
